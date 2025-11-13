@@ -1,0 +1,15 @@
+Notes here!
+Search line by line for 'X', then search the surrounding tiles for "M", same for "A", then "S" (use .find)
+Process as Xs are found
+
+findHere(x,y) to search in the 8 directions
+
+nextLocation(x,y, direction) Use characterAt within this function
+
+characterAt(x,y) to determine what character is at the x,y
+
+Tricky bits... when next location is off the map. Stop searching in that direction. But search other directions
+
+Next time:
+Write findHere function
+Replace print(xLocation) with findHere
