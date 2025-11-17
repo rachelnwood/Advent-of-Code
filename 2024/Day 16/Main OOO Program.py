@@ -4,6 +4,7 @@ from MazeSolver import MazeSolver
 if __name__ == "__main__":
     initial_facing_direction = "east"
 
+    # maze 1
     maze_object = Maze("Test Input")
     maze_solver_object = MazeSolver(maze_object)
 
@@ -35,3 +36,5 @@ if __name__ == "__main__":
     maze3_score = (maze_solver_object.solver(start_location_for_solver, end_location))
     print("results are ready")
     print(f'Maze 1: {maze1_score}\nMaze 2: {maze2_score}\nMaze 3: {maze3_score}')
+
+    #end
