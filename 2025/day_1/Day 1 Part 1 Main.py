@@ -1,5 +1,5 @@
 # input_file_name = "Sample Input"
-input_file_name = "Puzzle Input"
+input_file_name = "Puzzle_Input"
 
 with open (input_file_name) as file:
     lines = [x. strip() for x in file.readlines()]
