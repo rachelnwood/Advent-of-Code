@@ -72,8 +72,3 @@ if __name__ == "__main__":
     map = read_input("puzzle_input")
     total = removed_paper_rolls_number(map)
     print(f"Total movable paper rolls: {total}")
-
-# √ helper: return list of accessible paper roll locations
-# √ Copy a map
-# √ helper: replaces accessible paper rolls on map copy with 'X'
-# √ accumulate paper rolls per map generation
