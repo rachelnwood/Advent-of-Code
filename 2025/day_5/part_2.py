@@ -43,7 +43,6 @@ def len_of_ranges(merged_ranges: list[tuple[int, int]]) -> int:
 
     return fresh_ingredient_IDs
 
-
 # main program
 if __name__ == "__main__":
     fresh_ranges = read_input("puzzle_input_ranges")
