@@ -14,8 +14,9 @@ This portfolio of Advent of Code is to document my growth as I learn Python.
 - Refactor for readability and performance.
 
 ## Repository Structure
-Year
-├── Day#
+```
+Year/
+├── Day#/
 │ ├── README.md
 │ ├── part01_solution.py
 │ ├── part01_test.py
@@ -24,12 +25,13 @@ Year
 │ ├── __init__.py
 │ ├── puzzle_input
 │ └── sample_input
-
+```
 ## Running a Solution
 Each day's parts can be run independently.
 
 ```bash
 python3 2025/day7/part02_solution.py
+```
 
 ### Testing Strategy
 - All tests are written using 'pytest'
