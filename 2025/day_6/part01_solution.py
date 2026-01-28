@@ -36,6 +36,6 @@ def do_math(lines: list[list]) -> int:
 
 # main program
 if __name__ == '__main__':
-    lines = read_input("puzzle_input")
+    lines = read_input("sample_input")
     total = do_math(lines)
     print(total)

@@ -1,4 +1,4 @@
-from day_6.part_2 import *
+from day_6.part02_solution import *
 
 def test_part_input_sample():
     input_list = ["123 328  51 64", " 45 64  387 23", "  6 98  215 314", "*   +   *   +"]
