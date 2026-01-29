@@ -30,7 +30,7 @@ def fresh_ingredients_count(ingredients_list: list[str], ranges_list: list[tuple
 
 # main program
 if __name__ == "__main__":
-    ingredients = read_input("puzzle_input")
+    ingredients = read_input("puzzle_input_IDs")
     fresh_ranges = read_input("puzzle_input_ranges")
 
     list_of_ranges = build_list_of_ranges(fresh_ranges)
